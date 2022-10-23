@@ -4,6 +4,8 @@ Reproduction repo for [Skeleton]([Brain-Bones/skeleton](https://github.com/Brain
 
 Created with `yarn init -2`. See [`.yarnrc.yml`](.yarnrc.yml) for configuration.
 
+To reproduce the problem, run `yarn install` and then `yarn run dev`.
+
 ## Problem
 
 ### Expected behaviour
@@ -16,7 +18,7 @@ After creating and running the `ui` workspace as described in [the README](packa
 
 It can be seen that the layout is not styled properly. Tailwind seems to be applied only partially.
 
-![A screenshot of the broken layout](https://i.imgur.com/m5NXhWY.png)
+![A screenshot of the broken layout](https://i.imgur.com/b0TgZz7.png)
 
 ### Additional information
 
