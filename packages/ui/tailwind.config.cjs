@@ -1,10 +1,11 @@
+const path = require('path');
+
 const config = {
 	darkMode: 'class',
 
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
-		// Remember the relative import there
-		'../../node_modules/@brainandbones/skeleton/**/*.{html,js,svelte,ts}'
+		path.join(require.resolve('@brainandbones/skeleton'), '../**/*.{html,js,svelte,ts}')
 	],
 
 	theme: {
