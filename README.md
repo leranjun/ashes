@@ -1,5 +1,11 @@
 # ashes
 
+## Update
+
+This issue has been resolved. See Brain-Bones/skeleton#420.
+
+## Description
+
 Reproduction repo for [Skeleton]([Brain-Bones/skeleton](https://github.com/Brain-Bones/skeleton)) with Yarn v3 workspaces (PNP disabled). See [#420](https://github.com/Brain-Bones/skeleton/issues/420).
 
 Created with `yarn init -2`. See [`.yarnrc.yml`](.yarnrc.yml) for configuration.
